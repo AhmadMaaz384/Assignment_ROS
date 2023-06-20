@@ -1,0 +1,7 @@
+<launch>
+  <!-- It launches the publisher and subscriber nodes -->
+  <node pkg="simple_navigation_goals" type="simple_navigation_goals" name="simple_navigation_goals"  output="screen"/>
+
+  <node pkg="simple_navigation_goals" type="goal_publish" name="goal_publish"  output="screen"/>
+    
+</launch>
