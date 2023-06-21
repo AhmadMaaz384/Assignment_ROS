@@ -1,7 +1,9 @@
 # Assignment_ROS (Melodic)
 **To run all the questions, do the following steps:**
 
-Download and Extract the **All_Packages.zip** file in the catkin_ws/src folder.
+Clone the repository, in the repo there is a zip file named All_Packages.zip
+
+***Extract the **All_Packages.zip** file in the catkin_ws/src folder.***
 
 After extracting, 4 files will be visible named first_script.sh, simple_navigation_goals, turtle_chase and turtle
 
