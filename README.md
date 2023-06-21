@@ -83,7 +83,7 @@ A prompt will be given asking the user to **enter a valid goal point**.
 
 Enter point 1, 2 or 3 and the Burger robot will move to the respective goal points.
 
-This will
+![Screenshot of the /goal_location topic being scubscribed and published.](https://github.com/AhmadMaaz384/Assignment_ROS/blob/master/Question_2/Part_B/goal_location.PNG)
 
 
 
