@@ -100,5 +100,6 @@ Enter point 1, 2 or 3 and the Burger robot will move to the respective goal poin
 
 -The simple_navigation_goals.py file launch a simple_navigation_goals node that subscribes the goal_location topic to get the goal location point from the user.
 
+![Screenshot of the /goal_location topic being scubscribed and published.](https://github.com/AhmadMaaz384/Assignment_ROS/blob/master/Question_2/Part_B/simple_navigation_goal_node.PNG)
 
 
