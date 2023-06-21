@@ -3,7 +3,7 @@
 
 Download and Extract the **All_Packages.zip** file in the catkin_ws/src folder.
 
-After extracting, 4 files will be visible. 
+After extracting, 4 files will be visible named first_script.sh, simple_navigation_goals, turtle_chase and turtle
 
 Run the terminal and type the following command:
 
@@ -83,7 +83,11 @@ A prompt will be given asking the user to **enter a valid goal point**.
 
 Enter point 1, 2 or 3 and the Burger robot will move to the respective goal points.
 
+-The goal_publish node publishes the integer input by the user on the goal_location topic and the msg type is std_msgs/int8
+
 ![Screenshot of the /goal_location topic being scubscribed and published.](https://github.com/AhmadMaaz384/Assignment_ROS/blob/master/Question_2/Part_B/goal_location.PNG)
+
+-The simple_navigation_goals.py file launch a simple_navigation_goals node that subscribes the goal_location topic to get the goal location point from the user.
 
 
 
