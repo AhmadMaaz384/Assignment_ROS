@@ -5,7 +5,9 @@ Clone the repository, in the repo there is a zip file named All_Packages.zip
 
 ***Extract the **All_Packages.zip** file in the catkin_ws/src folder.***
 
-After extracting, 4 files will be visible named first_script.sh, simple_navigation_goals, turtle_chase and turtle
+After extracting, 4 files will be visible named first_script.sh, simple_navigation_goals, turtle_chase and turtlebot3_simulations.
+
+Copy all these files in Catkin_ws/src directory.
 
 Run the terminal and type the following command:
 
@@ -15,7 +17,7 @@ Run the terminal and type the following command:
     chmod +x first_script.sh
     ./first_script.sh
      
-This bash file install all the required packages.
+This bash file install all the required packages to run the turtlebo3_simulation world.
 
 Now run the following command:
      
