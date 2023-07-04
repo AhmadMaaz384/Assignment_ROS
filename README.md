@@ -36,7 +36,9 @@ Open the terminal and run:
     source devel/setup.bash 
     roslaunch turtle_chase two_turtles.launch
     
-This launch file launces two nodes i.e Turtlesim and turtlesim_teleop and will run the turtlesim node with two turtles in a single window. 
+This launch file launces two nodes i.e Turtlesim and turtlesim_teleop and will run the turtlesim node with two turtles in a single window as shown below.
+
+![Screenshot of the /goal_location topic being scubscribed and published.](https://github.com/AhmadMaaz384/Assignment_ROS/blob/master/Question_1/Part_A/two_turtles_single_window.PNG)
 
 ### Part B
 
